@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Bookstore</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <h1>Static Bookstore</h1>
+    //generate completely different book name for each of the following div
+    <div id="products" class="products">
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Pragmatic Programmer">
+            <h3>The Pragmatic Programmer</h3>
+            <p class="price">$42.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Clean Code">
+            <h3>Clean Code</h3>
+            <p class="price">$35.50</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Design Patterns">
+            <h3>Design Patterns</h3>
+            <p class="price">$49.00</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Refactoring">
+            <h3>Refactoring</h3>
+            <p class="price">$37.25</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Introduction to Algorithms">
+            <h3>Introduction to Algorithms</h3>
+            <p class="price">$58.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Algorithms</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Artificial Intelligence: A Modern Approach">
+            <h3>Artificial Intelligence: A Modern Approach</h3>
+            <p class="price">$55.00</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">AI</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Database System Concepts">
+            <h3>Database System Concepts</h3>
+            <p class="price">$52.45</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Databases</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Operating System Concepts">
+            <h3>Operating System Concepts</h3>
+            <p class="price">$41.30</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Operating Systems</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Computer Networking: A Top-Down Approach">
+            <h3>Computer Networking: A Top-Down Approach</h3>
+            <p class="price">$47.50</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Networking</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Deep Learning">
+            <h3>Deep Learning</h3>
+            <p class="price">$59.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Python Crash Course">
+            <h3>Python Crash Course</h3>
+            <p class="price">$32.25</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Hands-On Machine Learning">
+            <h3>Hands-On Machine Learning</h3>
+            <p class="price">$44.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Modern Operating Systems">
+            <h3>Modern Operating Systems</h3>
+            <p class="price">$54.25</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Operating Systems</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The C Programming Language">
+            <h3>The C Programming Language</h3>
+            <p class="price">$31.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Introduction to Machine Learning">
+            <h3>Introduction to Machine Learning</h3>
+            <p class="price">$39.00</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Learning SQL">
+            <h3>Learning SQL</h3>
+            <p class="price">$29.99</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Databases</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Fluent Python">
+            <h3>Fluent Python</h3>
+            <p class="price">$46.50</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Pattern Recognition and Machine Learning">
+            <h3>Pattern Recognition and Machine Learning</h3>
+            <p class="price">$57.20</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Distributed Systems: Concepts and Design">
+            <h3>Distributed Systems: Concepts and Design</h3>
+            <p class="price">$51.40</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Operating Systems</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Algorithms Unlocked">
+            <h3>Algorithms Unlocked</h3>
+            <p class="price">$33.45</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Algorithms</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Computer Security: Principles and Practice">
+            <h3>Computer Security: Principles and Practice</h3>
+            <p class="price">$39.99</p>
+            <p class="rating">⭐⭐⭐</p>
+            <p class="category">Security</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Artificial Intelligence for Humans">
+            <h3>Artificial Intelligence for Humans</h3>
+            <p class="price">$28.99</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">AI</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Reinforcement Learning: An Introduction">
+            <h3>Reinforcement Learning: An Introduction</h3>
+            <p class="price">$49.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Compilers: Principles, Techniques, and Tools">
+            <h3>Compilers: Principles, Techniques, and Tools</h3>
+            <p class="price">$55.20</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Elements of Statistical Learning">
+            <h3>The Elements of Statistical Learning</h3>
+            <p class="price">$53.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Statistics</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Artificial Neural Networks">
+            <h3>Artificial Neural Networks</h3>
+            <p class="price">$36.75</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Natural Language Processing with Python">
+            <h3>Natural Language Processing with Python</h3>
+            <p class="price">$43.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">AI</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Programming Pearls">
+            <h3>Programming Pearls</h3>
+            <p class="price">$28.90</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Mythical Man-Month">
+            <h3>The Mythical Man-Month</h3>
+            <p class="price">$34.20</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Software Engineering</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Algorithms">
+            <h3>Algorithms</h3>
+            <p class="price">$45.10</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Algorithms</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Hands-On Deep Learning with TensorFlow">
+            <h3>Hands-On Deep Learning with TensorFlow</h3>
+            <p class="price">$49.95</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Think Python">
+            <h3>Think Python</h3>
+            <p class="price">$27.25</p>
+            <p class="rating">⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Data Science for Business">
+            <h3>Data Science for Business</h3>
+            <p class="price">$38.90</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Data Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Python Data Science Handbook">
+            <h3>Python Data Science Handbook</h3>
+            <p class="price">$44.10</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Data Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Big Data: Principles and Paradigms">
+            <h3>Big Data: Principles and Paradigms</h3>
+            <p class="price">$41.75</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Data Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Machine Learning in Action">
+            <h3>Machine Learning in Action</h3>
+            <p class="price">$40.25</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Statistics for Engineers and Scientists">
+            <h3>Statistics for Engineers and Scientists</h3>
+            <p class="price">$38.50</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Statistics</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Bayesian Reasoning and Machine Learning">
+            <h3>Bayesian Reasoning and Machine Learning</h3>
+            <p class="price">$42.70</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Machine Learning</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Graph Theory and Its Applications">
+            <h3>Graph Theory and Its Applications</h3>
+            <p class="price">$36.80</p>
+            <p class="rating">⭐⭐⭐</p>
+            <p class="category">Mathematics</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Engineering a Compiler">
+            <h3>Engineering a Compiler</h3>
+            <p class="price">$48.10</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="High Performance Computing">
+            <h3>High Performance Computing</h3>
+            <p class="price">$46.20</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Computing</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Quantum Computing for Everyone">
+            <h3>Quantum Computing for Everyone</h3>
+            <p class="price">$39.40</p>
+            <p class="rating">⭐⭐⭐</p>
+            <p class="category">Computing</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Parallel Programming in C with MPI">
+            <h3>Parallel Programming in C with MPI</h3>
+            <p class="price">$43.80</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Programming</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Cloud Computing: Concepts, Technology &amp; Architecture">
+            <h3>Cloud Computing: Concepts, Technology &amp; Architecture</h3>
+            <p class="price">$44.50</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Computing</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Agile Software Development">
+            <h3>Agile Software Development</h3>
+            <p class="price">$36.40</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Software Engineering</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Art of Computer Programming Vol 1">
+            <h3>The Art of Computer Programming Vol 1</h3>
+            <p class="price">$59.90</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Algorithms</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Art of Computer Programming Vol 2">
+            <h3>The Art of Computer Programming Vol 2</h3>
+            <p class="price">$59.95</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Algorithms</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Art of Computer Programming Vol 3">
+            <h3>The Art of Computer Programming Vol 3</h3>
+            <p class="price">$62.15</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Algorithms</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Art of Computer Programming Vol 4">
+            <h3>The Art of Computer Programming Vol 4</h3>
+            <p class="price">$64.50</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Algorithms</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Introduction to Automata Theory, Languages, and Computation">
+            <h3>Introduction to Automata Theory, Languages, and Computation</h3>
+            <p class="price">$50.30</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Theory</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Introduction to Information Retrieval">
+            <h3>Introduction to Information Retrieval</h3>
+            <p class="price">$53.20</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Information Retrieval</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Speech and Language Processing">
+            <h3>Speech and Language Processing</h3>
+            <p class="price">$57.45</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">AI</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Competing in the Age of AI">
+            <h3>Competing in the Age of AI</h3>
+            <p class="price">$34.10</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">AI</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Building Microservices">
+            <h3>Building Microservices</h3>
+            <p class="price">$42.75</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Software Engineering</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Continuous Delivery">
+            <h3>Continuous Delivery</h3>
+            <p class="price">$46.30</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Software Engineering</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Site Reliability Engineering">
+            <h3>Site Reliability Engineering</h3>
+            <p class="price">$49.50</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Software Engineering</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Kubernetes: Up and Running">
+            <h3>Kubernetes: Up and Running</h3>
+            <p class="price">$43.20</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Cloud Computing</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Designing Data-Intensive Applications">
+            <h3>Designing Data-Intensive Applications</h3>
+            <p class="price">$55.40</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Databases</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Streaming Systems">
+            <h3>Streaming Systems</h3>
+            <p class="price">$48.65</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Data Engineering</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Fundamentals of Database Systems">
+            <h3>Fundamentals of Database Systems</h3>
+            <p class="price">$52.95</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Databases</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Foundations of Data Science">
+            <h3>Foundations of Data Science</h3>
+            <p class="price">$38.50</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Data Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Cognitive Science">
+            <h3>Cognitive Science</h3>
+            <p class="price">$36.90</p>
+            <p class="rating">⭐⭐⭐</p>
+            <p class="category">Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Philosophy of Mind">
+            <h3>Philosophy of Mind</h3>
+            <p class="price">$34.25</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Philosophy</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Emperor of All Maladies">
+            <h3>The Emperor of All Maladies</h3>
+            <p class="price">$29.99</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Medicine</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Sapiens: A Brief History of Humankind">
+            <h3>Sapiens: A Brief History of Humankind</h3>
+            <p class="price">$33.50</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">History</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Homo Deus: A Brief History of Tomorrow">
+            <h3>Homo Deus: A Brief History of Tomorrow</h3>
+            <p class="price">$34.80</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">History</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="21 Lessons for the 21st Century">
+            <h3>21 Lessons for the 21st Century</h3>
+            <p class="price">$30.90</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">History</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Guns, Germs, and Steel">
+            <h3>Guns, Germs, and Steel</h3>
+            <p class="price">$31.75</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">History</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Collapse: How Societies Choose to Fail or Succeed">
+            <h3>Collapse: How Societies Choose to Fail or Succeed</h3>
+            <p class="price">$33.25</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">History</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Why Nations Fail">
+            <h3>Why Nations Fail</h3>
+            <p class="price">$40.25</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Economics</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Capital in the Twenty-First Century">
+            <h3>Capital in the Twenty-First Century</h3>
+            <p class="price">$42.80</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Economics</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Thinking, Fast and Slow">
+            <h3>Thinking, Fast and Slow</h3>
+            <p class="price">$27.45</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Psychology</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Predictably Irrational">
+            <h3>Predictably Irrational</h3>
+            <p class="price">$24.99</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Psychology</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Influence: The Psychology of Persuasion">
+            <h3>Influence: The Psychology of Persuasion</h3>
+            <p class="price">$26.50</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Psychology</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Selfish Gene">
+            <h3>The Selfish Gene</h3>
+            <p class="price">$29.40</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Biology</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Blind Watchmaker">
+            <h3>The Blind Watchmaker</h3>
+            <p class="price">$28.75</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Biology</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="A Brief History of Time">
+            <h3>A Brief History of Time</h3>
+            <p class="price">$31.20</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="The Universe in a Nutshell">
+            <h3>The Universe in a Nutshell</h3>
+            <p class="price">$34.30</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Astrophysics for People in a Hurry">
+            <h3>Astrophysics for People in a Hurry</h3>
+            <p class="price">$22.75</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+            <p class="category">Science</p>
+        </div>
+        <div class="product">
+            <img src="./assets/book-cover.png" alt="Cosmos">
+            <h3>Cosmos</h3>
+            <p class="price">$28.45</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="category">Science</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Bookstore</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <h1>Dynamic Bookstore</h1>
+
+  <div style="max-width:1200px; margin:20px auto; text-align:center;">
+    <label for="category">Filter by Category: </label>
+    <select id="category">
+      <option value="all">All Categories</option>
+      <option value="Programming">Programming</option>
+      <option value="Algorithms">Algorithms</option>
+      <option value="Databases">Databases</option>
+      <option value="Operating Systems">Operating Systems</option>
+      <option value="Networking">Networking</option>
+      <option value="Machine Learning">Machine Learning</option>
+      <option value="Data Science">Data Science</option>
+      <option value="AI">AI</option>
+      <option value="History">History</option>
+      <option value="Science">Science</option>
+      <option value="Philosophy">Philosophy</option>
+      <option value="Economics">Economics</option>
+      <option value="Psychology">Psychology</option>
+      <option value="Biology">Biology</option>
+    </select>
+  </div>
+
+  <div id="products" class="products"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
